@@ -1,0 +1,27 @@
+# C/C++ build files
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.so
+*.dll
+
+# Local build folders
+build/
+bin/
+
+# Python temporary files
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor-specific local settings
+.vscode/
+.idea/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
