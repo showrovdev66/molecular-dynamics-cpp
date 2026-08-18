@@ -65,6 +65,32 @@ It also saves:
 results/temperature_profile.csv
 results/nemd_summary.txt
 ```
+## Result from my run
+
+I completed one full run using the settings listed above.
+
+| Quantity | Result |
+|---|---:|
+| Measured thermal conductivity `kappa*` | 7.181061 |
+| Published comparison value | 7.100000 |
+| Relative difference | 1.141705% |
+| Momentum drift | 0.000000 |
+| Energy drift during production | 0.001922% |
+| Left temperature branch `R^2` | 0.989686 |
+| Right temperature branch `R^2` | 0.970907 |
+
+The temperature profile developed clearly between the cold and hot regions. Both sides of the profile were close to linear, especially the left branch.
+
+The measured thermal conductivity was about 1.14% higher than the published comparison value of 7.1.
+
+The energy drift was very small and no momentum drift was reported. These checks suggest that the simulation behaved well during this run.
+
+This is still a small learning-scale simulation. I do not treat the close agreement with the published value as proof of an exact reproduction because the system size, simulation length, and implementation are not identical to the published work.
+
+The numerical output from this run is saved in:
+
+- `results/temperature_profile.csv`
+- `results/nemd_summary.txt`
 
 ## Build and run
 

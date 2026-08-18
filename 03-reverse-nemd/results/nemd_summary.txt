@@ -1,0 +1,7 @@
+Measured kappa*: 7.181061
+Reference kappa*: 7.100000
+Relative difference (%): 1.141705
+Momentum drift: 0.000000
+Energy drift (%): 0.001922
+Left branch R^2: 0.989686
+Right branch R^2: 0.970907
