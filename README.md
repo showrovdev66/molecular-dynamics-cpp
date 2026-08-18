@@ -58,7 +58,6 @@ This is an educational, reduced-size implementation. It uses the published refer
 molecular-dynamics-cpp/
 ├── README.md
 ├── REFERENCES.md
-├── GITHUB_SETUP.md
 ├── requirements.txt
 ├── .gitignore
 ├── 01-lennard-jones-md/
